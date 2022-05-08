@@ -1,14 +1,12 @@
 import React from 'react'
-import { Primer } from './Primer';
-import { Segundo } from './Segundo';
+import { Tercer } from './Tercer';
 import '../styles/App.css';
 
 
 function App() {
   return (
     <section className='card'>
-      <Segundo/>
-      <Primer/>
+      <Tercer/>
     </section>
     
   );

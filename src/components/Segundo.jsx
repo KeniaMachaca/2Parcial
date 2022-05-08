@@ -1,5 +1,5 @@
 import React from 'react'
-import { Primer } from './Primer'
+import '../styles/Segundo.css';
 
 function Segundo() {
   return (

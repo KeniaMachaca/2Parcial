@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Primer.css';
 
 function Primer() {
   return (
