@@ -1,0 +1,86 @@
+.primer-contenedor{
+    display: flex
+
+;
+}
+
+.primer-contenedor__cabeza{
+    position: static;
+width: 321px;
+height: 19px;
+left: 21px;
+top: 10px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Text Black */
+
+color: #2F2F2F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+display: flex
+
+;
+
+}
+
+.primer-contenedor__pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primer-contenedor__pie span:nth-child(1){
+   
+width: 76px;
+height: 16px;
+left: 19px;
+top: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Light Text */
+
+color: #888888;
+}
+
+.primer-contenedor__pie span:nth-child(2){
+/* 3/8/2020 */
+
+
+
+width: 58px;
+height: 16px;
+right: 17px;
+top: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: right;
+
+/* Light Text */
+
+color: #888888;
+}
