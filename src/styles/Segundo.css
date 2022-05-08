@@ -6,7 +6,10 @@ padding: 0px;
 
 position: relative;
 width: 364px;
-height: 80px;
+height: 75px;
+background: #EB5757;
+border-radius: 5% 5% 0 0;
+flex-direction: row-reverse;
 }
 
 .segundo-container span:nth-child(1){
@@ -30,10 +33,12 @@ color: #FFFFFF;
 
 .segundo-container span:nth-child(2){
     position: static;
-width: 46px;
+width: 90px;
 height: 19px;
 left: 0px;
 top: 0px;
+margin-top: 27px;
+margin-right: 50px;
 
 font-family: 'Lato';
 font-style: normal;
